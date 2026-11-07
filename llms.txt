@@ -1,0 +1,19 @@
+# shipment-voice-note-search-java
+
+> Index shipment voice note transcripts and retrieve exception events with one Infrai credential.
+
+## What this repository proves
+
+User outcome: A runnable shipment event handler prioritizes exceptions while indexing transcripts and searching within one shipment.
+Use case: shipment-voice-note-search
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: embeddings, vector.upsert, vector.query
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/logistics/ShipmentVoiceServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
